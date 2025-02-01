@@ -13,3 +13,4 @@
  - JWT,
  - MongoDb,
  - Toastify kullanımı işlemlerini gerçekleştirdik.# Mern-FullStack
+![fullstack](https://github.com/user-attachments/assets/898651b1-2bec-4ac1-8589-a5c4957e6b85)
