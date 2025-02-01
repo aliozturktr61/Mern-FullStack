@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* auth ana div */
+    .ana_div_style{
+    @apply w-full h-screen flex justify-center items-center bg-gray-100 fixed top-0 left-0 bottom-0 right-0 z-50 ;
+    }
+    /* Form elemanları stil */
+    .form_giris_style{
+        @apply flex flex-col space-y-3 my-5;
+    }
+    /* aut input stil */
+  .input-style {
+    @apply border p-2 rounded-md outline-none;
+  }
+  /* ayth h1 başlık stil */
+  .h1-text_style{
+    @apply text-2xl text-indigo-700 font-bold;
+  }
+  /* auth giris yap stil */
+  .giris_yap_style{
+    @apply text-red-500 text-xs cursor-pointer mb-4;
+  }
+  /* auth kayıtol stil */
+  .kayit_ol_style{
+    @apply w-full text-center bg-indigo-500 text-white rounded-md p-2 cursor-pointer hover:bg-indigo-800
+  }
+}
